@@ -84,3 +84,37 @@ nav {
     z-index: 10;
 }
 
+.Reasons {
+    background-color: #000;
+    color: white;
+    padding: 60px 40px;
+}
+
+.Reasons  h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.Reasons {
+    background-color: #000;
+    color: white;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.Reasons .card {
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Reasons .card i {
+    font-size: 48px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
